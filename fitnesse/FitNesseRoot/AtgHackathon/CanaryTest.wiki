@@ -10,4 +10,4 @@ Help: Verifiera att vi har en fungerande testmiljö
 |0             |no         |1                      |no          |
 |10            |no         |1                      |no          |
 |0             |yes        |1                      |no          |
-|10            |yes        |1                      |nope        |
+|10            |yes        |1                      |no          |
