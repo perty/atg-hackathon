@@ -1,2 +1,5 @@
-
-|import|se.atg.hackathon.fixtures|
+---
+Help: Rigga import av fixturer
+---
+|Import                   |
+|se.atg.hackathon.fixtures|
