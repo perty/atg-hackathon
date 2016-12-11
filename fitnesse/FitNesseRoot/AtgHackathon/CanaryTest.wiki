@@ -1,6 +1,9 @@
 ---
 Help: Verifiera att vi har en fungerande testmiljö
 ---
+!1 Canary Test
+Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som inte delegerar till något system.
+
 |Should I buy milk                                              |
 |Cash in wallet|Credit card|Pints of milk remaining|Go to store?|
 |0             |no         |0                      |no          |
