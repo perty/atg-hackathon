@@ -1,3 +1,6 @@
+---
+Help: Verifiera att vi har en fungerande testmiljö
+---
 |Wallet                                                         |
 |Cash in wallet|Credit card|Pints of milk remaining|Go to store?|
 |0             |no         |0                      |no          |
