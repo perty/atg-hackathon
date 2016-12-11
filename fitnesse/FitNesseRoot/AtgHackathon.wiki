@@ -1,5 +1,6 @@
 ---
 Help: Roten till allt
+Suite
 ---
 !define TEST_SYSTEM {slim} 
 !path fixtures/target/classes
