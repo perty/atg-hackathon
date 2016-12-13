@@ -19,11 +19,6 @@ Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som int
 !2 Anropa en tjänst
 Verifiera att vi har en mikrotjänst uppe som vi kan anropa.
 
-Här sätter vi upp var tjänsten finns.
-
-|Environment                |
-|Service name|host     |port|
-|Betting     |localhost|8080|
 
 Ett testscript kör steg och verifierar varje steg.
 
