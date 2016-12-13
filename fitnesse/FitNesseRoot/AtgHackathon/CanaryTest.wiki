@@ -2,9 +2,7 @@
 Help: Verifiera att vi har en fungerande testmiljö
 ---
 !1 Canary Test
-
 !2 Internt test
-
 Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som inte delegerar till något system.
 
 |Should I buy milk                                              |
@@ -19,16 +17,18 @@ Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som int
 |10            |yes        |1                      |no          |
 
 !2 Anropa en tjänst
-
 Verifiera att vi har en mikrotjänst uppe som vi kan anropa.
+
+Här sätter vi upp var tjänsten finns.
 
 |Environment                |
 |Service name|host     |port|
 |Betting     |localhost|8080|
 
+Ett testscript kör steg och verifierar varje steg.
+
 |Script          |Betting script                |
 |get greeting                                   |
 |check           |greeting content is|Hello Nerd|
-|get greeting for|Nick                          |'
+|get greeting for|Nick                          |
 |check           |greeting content is|Hello Nick|
-
