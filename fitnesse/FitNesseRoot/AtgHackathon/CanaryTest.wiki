@@ -27,7 +27,7 @@ Här sätter vi upp var tjänsten finns.
 
 Ett testscript kör steg och verifierar varje steg.
 
-|Script          |Betting script                |
+|Script          |Greeting script               |
 |get greeting                                   |
 |check           |greeting content is|Hello Nerd|
 |get greeting for|Nick                          |
