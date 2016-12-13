@@ -1,6 +1,9 @@
 ---
 Help: Verifiera att vi har en fungerande testmiljö
 ---
+|Import                          |
+|se.atg.hackathon.fixtures.canary|
+
 !1 Canary Test
 !2 Internt test
 Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som inte delegerar till något system.
