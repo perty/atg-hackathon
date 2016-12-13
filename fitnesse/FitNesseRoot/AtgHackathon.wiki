@@ -4,5 +4,6 @@ Suite
 ---
 !define TEST_SYSTEM {slim} 
 !path fixtures/target/classes
+!path fixtures/target/fixtures-jar-with-dependencies.jar
 
 !contents -R2 -g -p -f -h
