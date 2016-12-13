@@ -1,6 +1,7 @@
-package se.atg.hackathon.fixtures;
+package se.atg.hackathon.fixtures.canary;
 
 
+@SuppressWarnings({"unused", "WeakerAccess"})
 public class Greeting {
     private Integer id;
     private String content;

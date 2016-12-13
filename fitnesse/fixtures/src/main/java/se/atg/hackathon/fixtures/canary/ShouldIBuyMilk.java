@@ -1,4 +1,4 @@
-package se.atg.hackathon.fixtures;
+package se.atg.hackathon.fixtures.canary;
 
 @SuppressWarnings("unused")
 public class ShouldIBuyMilk {

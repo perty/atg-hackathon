@@ -1,9 +1,11 @@
-package se.atg.hackathon.fixtures;
+package se.atg.hackathon.fixtures.canary;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
+import se.atg.hackathon.fixtures.Environment;
+import se.atg.hackathon.fixtures.exception.StopTestException;
 
 import java.io.IOException;
 import java.util.Properties;

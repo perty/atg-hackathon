@@ -1,6 +1,4 @@
-package se.atg.hackathon.fixtures;
-
-import org.springframework.web.client.ResourceAccessException;
+package se.atg.hackathon.fixtures.exception;
 
 public class StopTestException extends RuntimeException {
     public StopTestException(String message) {
