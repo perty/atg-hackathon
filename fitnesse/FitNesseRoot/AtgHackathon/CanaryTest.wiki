@@ -1,9 +1,12 @@
 ---
 Help: Verifiera att vi har en fungerande testmiljö
 ---
+!***> set up for this test only
+
 |Import                          |
 |se.atg.hackathon.fixtures.canary|
 
+*!
 !1 Canary Test
 !2 Internt test
 Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som inte delegerar till något system.
@@ -21,7 +24,6 @@ Verifiera att vi har en fungerande testmiljö genom att anropa en fixtur som int
 
 !2 Anropa en tjänst
 Verifiera att vi har en mikrotjänst uppe som vi kan anropa.
-
 
 Ett testscript kör steg och verifierar varje steg.
 
