@@ -3,3 +3,9 @@ Help: Rigga import av fixturer
 ---
 |Import                   |
 |se.atg.hackathon.fixtures|
+
+Här sätter vi upp var tjänsten finns.
+
+|Environment                |
+|Service name|host     |port|
+|Betting     |localhost|8080|
