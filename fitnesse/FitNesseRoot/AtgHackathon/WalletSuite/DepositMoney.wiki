@@ -1,3 +1,7 @@
+---
+Help: Depositing money into the wallet.
+Test
+---
 !1 Deposit Money
 
 A wallet is created for a user. The initial balance is zero.
