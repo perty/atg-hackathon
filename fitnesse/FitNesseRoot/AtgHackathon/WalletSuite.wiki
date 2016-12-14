@@ -1,5 +1,5 @@
 ---
-Help: Testsvit för tester som har med Wallet att göra
+Help: Suite for wallet related specifications
 ---
 !1 Wallet Suite
 
