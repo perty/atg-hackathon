@@ -8,4 +8,4 @@ Här sätter vi upp var tjänsten finns.
 
 |Environment                |
 |Service name|host     |port|
-|Betting     |localhost|8080|
+|Betting     |localhost|8081|
