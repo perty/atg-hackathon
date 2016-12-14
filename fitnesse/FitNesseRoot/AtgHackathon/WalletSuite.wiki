@@ -1,0 +1,11 @@
+!1 Wallet Suite
+
+Users have wallets, one could say that we see the user as a wallet. They can deposit money into the wallet and they use that money to place bets.
+
+When users places a bet, the betting service reserves the cost of the bet with the wallet of that user, much like a credit card. 
+If the bet is succesfully placed, the money is withdrawn from the wallet, else the reserved money are released.
+
+The wallet has a budget function that prevents the user from spending to much money on betting. This budget is checked against whenever 
+the betting service tries to reserve money.
+
+!contents -R2 -g -p -f -h
