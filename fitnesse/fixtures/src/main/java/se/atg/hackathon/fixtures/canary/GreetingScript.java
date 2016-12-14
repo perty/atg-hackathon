@@ -1,14 +1,12 @@
 package se.atg.hackathon.fixtures.canary;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.web.client.ResourceAccessException;
-import org.springframework.web.client.RestTemplate;
 import se.atg.hackathon.fixtures.Environment;
 import se.atg.hackathon.fixtures.exception.StopTestException;
+import se.atg.hackathon.fixtures.util.RestCall;
 
-import java.io.IOException;
 import java.util.Properties;
+
+import static java.lang.String.format;
 
 @SuppressWarnings("unused")
 public class GreetingScript {
@@ -44,25 +42,11 @@ public class GreetingScript {
     }
 
     private Greeting getRestGreeting(String name) {
-        String path = String.format("http://%s:%s/greeting?name=%s", hostName, port, name);
-        return doRestCall(path);
+        return new RestCall<>(Greeting.class).get(format("http://%s:%s/greeting?name=%s", hostName, port, name));
     }
 
     private Greeting getRestGreeting() {
-        String path = String.format("http://%s:%s/greeting", hostName, port);
-        return doRestCall(path);
-    }
-
-    private Greeting doRestCall(String path) {
-        try {
-            RestTemplate restTemplate = new RestTemplate();
-            String greetingString = restTemplate.getForObject(path, String.class);
-            ObjectMapper objectMapper = new ObjectMapper();
-            return objectMapper.readValue(greetingString, new TypeReference<Greeting>() {
-            });
-        } catch (ResourceAccessException | IOException exception) {
-            throw new StopTestException(exception.getMessage(), exception);
-        }
+        return new RestCall<>(Greeting.class).get(format("http://%s:%s/greeting", hostName, port));
     }
 
     private void setUpProperties() {
