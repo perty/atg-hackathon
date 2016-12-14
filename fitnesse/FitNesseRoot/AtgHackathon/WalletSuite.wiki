@@ -1,3 +1,6 @@
+---
+Help: Testsvit för tester som har med Wallet att göra
+---
 !1 Wallet Suite
 
 Users have wallets, one could say that we see the user as a wallet. They can deposit money into the wallet and they use that money to place bets.
