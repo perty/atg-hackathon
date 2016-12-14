@@ -1,0 +1,17 @@
+!1 Deposit Money
+
+A wallet is created for a user. The initial balance is zero.
+
+|script           |Wallet Script                                             |
+|create wallet for|Joe      |of age     |25         |with user is|joeWinner91|
+|ensure           |wallet of|joeWinner91|has balance|0                       |
+
+When deposting money, the balance is affected.
+
+|script |Wallet Script                           |
+|deposit|100      |into wallet of|joeWinner91    |
+|ensure |wallet of|joeWinner91   |has balance|100|
+|deposit|250      |into wallet of|joeWinner91    |
+|ensure |wallet of|joeWinner91   |has balance|350|
+
+
