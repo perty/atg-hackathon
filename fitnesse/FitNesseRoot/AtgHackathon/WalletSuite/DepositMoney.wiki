@@ -8,7 +8,7 @@ A wallet is created for a user. The initial balance is zero.
 
 |script           |Wallet Script                                             |
 |create wallet for|Joe      |of age     |25         |with user is|joeWinner91|
-|ensure           |wallet of|joeWinner91|has balance|0                       |
+|check            |wallet of|joeWinner91|has balance|0                       |
 
 When deposting money, the balance is affected.
 
