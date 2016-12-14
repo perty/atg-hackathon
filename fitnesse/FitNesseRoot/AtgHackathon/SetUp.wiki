@@ -9,3 +9,5 @@ Här sätter vi upp var tjänsten finns.
 |Environment                |
 |Service name|host     |port|
 |Betting     |localhost|8081|
+|Wallet      |localhost|8082|
+
