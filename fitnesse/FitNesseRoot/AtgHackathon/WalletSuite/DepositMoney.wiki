@@ -14,8 +14,8 @@ When deposting money, the balance is affected.
 
 |script |Wallet Script                           |
 |deposit|100      |into wallet of|joeWinner91    |
-|ensure |wallet of|joeWinner91   |has balance|100|
+|check  |wallet of|joeWinner91   |has balance|100|
 |deposit|250      |into wallet of|joeWinner91    |
-|ensure |wallet of|joeWinner91   |has balance|350|
+|check  |wallet of|joeWinner91   |has balance|350|
 
 
