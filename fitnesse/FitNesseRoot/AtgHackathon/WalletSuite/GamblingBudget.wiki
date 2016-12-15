@@ -1,0 +1,39 @@
+Spelbudget och exempel
+
+Som en kund vill jag kunna sätta min spelbudget, dvs begränsa mitt spel under viss tidsperiod.
+
+Möjligt belopp spelbudget: 100-16000 kr
+Möjlig låsningsperiod för spelbudget: 1 - 12 månader. Hela månader.
+
+|1.                                                                                                                                                                                              |
+|Som en kund vill jag aktivera spelbudget för att begränsa mitt spelande ender viss period.                                                                                                      |
+|Användare|Datum aktiverad spelbudget|Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall              |Kommentar                                                           |
+|ANV1     |31 januari 2016           |1 mån              |2000                 |29 februari 2016       |Spelbudget skapat   |Skottår 2016. Observera datum avslutad låsningsperiod.              |
+|ANV2     |3 januari 2016            |3 mån              |15000                |3 april 2016           |Spelbudget skapat                                                                        |
+|ANV3     |30 januari 2016           |1 mån              |300                  |28 februari 2016       |Spelbudget skapat   |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
+|ANV4     |10 mars 2016              |12 mån             |151                  |10 mars 2017           |Spelbudget skapat   |Går bra att skapa budget med det ojämna beloppet                    |
+|ANV5     |3 januari 2016            |1 mån              |16500                |                       |Ej skapad spelbudget|För högt belopp                                                     |
+|ANV6     |19 augusti 2016           |1 mån              |90                   |                       |Ej skapad spelbudget|För lågt belopp                                                     |
+|ANV7     |1 januari 2017            |6 mån              |10000                |1 juni 2017            |Spelbudget skapat                                                                        |
+
+|2.                                                                                                                                                                                      |
+|Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
+|Ändringen ska slå igenom direkt.                                                                                                                                                        |
+|Användare|Datum ändrad spelbudget|Händelse         |Vald låsningsperiod|Avslutad låsningsperiod|Belopp spelbudget, kr|Utfall                 |Kommentar                                 |
+|ANV1     |14 februari 2016       |Minska spelbudget|N/A                |29 februari 2016       |1000                 |Spelbudgeten ändras    |Låsningsperiod oförändrad från föregående.|
+|ANV1     |16 februari 2016       |Minska spelbudget|N/A                |N/A                    |999                  |Spelbudgeten ändras ej.|Ej möjligt att minska med endast 1 kr     |
+|ANV4     |20 april 2016          |Minska spelbudget|N/A                |N/A                    |0                    |Ej ändrad spelbudget   |Ej möjligt att ange 0 kr.                 |
+
+|3.                                                                                                                                                                                         |
+|Som kund vill jag kunna vill jag kunna öka eller ta bort efter min spelbudget efter utgången låsningperiodperiod.                                                                          |
+|Användare|Datum ändrad spelbudget|Händelse          |Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall                   |Kommentar                                 |
+|ANV2     |20 januari 2016        |Höja spelbudget   |1 mån              |15500                |N/A                    |Spelbudgeten ändras ej.  |Låsningsperiod pågår.                     |
+|ANV2     |4 april 2016           |Höja spelbudget   |2 mån              |16000                |4 juni 2016            |Spelbudgeten ändras.     |Låsningsperiod avslutad. Ny låsningsperiod|
+|ANV2     |8/2/2016               |Ta bort spelbudget|N/A                |N/A                  |N/A                    |Spelbudgeten tas EJ bort.|Låsningsperiod pågår.                     |
+|ANV2     |10 september 2016      |Ta bort spelbudget|N/A                |N/A                  |N/A                    |Spelbudgeten tas bort    |Låsningsperiod avslutad.                  |
+
+|4.                                                                                                                                                                                                                                                      |
+|Som kund vill jag kunna spärra mig helt från spel under viss period. Ändringen ska slå igenom direkt.                                                                                                                                                   |
+|Användare|Datum ändring |Händelse       |Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall           |Kommentar                                                                                                                  |
+|ANV8     |1 januari 2017|Skapa spelspärr|6 mån              |0                    |1 juni 2017            |Spelspärr skapad |Har inte tidigare spelbudget.                                                                                              |
+|ANV7     |1 mars 2017   |Skapa spelspärr|1 mån              |0                    |1 september 2017       |Spelspärr skapad.|Låsningspreriod bli 6 månader (som pågående spelbudget) och inte 1 mån som vald period. Här är bugg och otydlig info i GUI.|
