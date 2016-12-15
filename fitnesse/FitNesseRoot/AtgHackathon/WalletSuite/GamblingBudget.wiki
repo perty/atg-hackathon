@@ -18,7 +18,7 @@ Möjlig låsningsperiod för spelbudget: 1 - 12 månader. Hela månader.
 |ANV4|2016-03-10    |12    |151   |2017-03-10  |Created    |Går bra att skapa budget med det ojämna beloppet                    |
 |ANV5|2016-01-03    |1     |16500 |            |Not created|För högt belopp                                                     |
 |ANV6|2016-08-19    |1     |90    |            |Not created|För lågt belopp                                                     |
-|ANV7|2017-01-01    |6     |10000 |2017-06-01  |Created    |                                                                    |
+|ANV7|2017-01-01    |6     |10000 |2017-07-01  |Created    |                                                                    |
 
 |2.                                                                                                                                                                                      |
 |Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
