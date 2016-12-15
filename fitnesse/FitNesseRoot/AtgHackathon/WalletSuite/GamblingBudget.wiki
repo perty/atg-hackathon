@@ -10,15 +10,15 @@ Möjlig låsningsperiod för spelbudget: 1 - 12 månader. Hela månader.
 
 1. Som en kund vill jag aktivera spelbudget för att begränsa mitt spelande under viss period.
 
-|Create Gambling Budget                                                                                                                                |
-|User|Date activated |Selected period|Amount|Period ends?    |Result?             |Kommentar                                                           |
-|ANV1|31 januari 2016|1 mån          |2000  |29 februari 2016|Spelbudget skapat   |Skottår 2016. Observera datum avslutad låsningsperiod.              |
-|ANV2|3 januari 2016 |3 mån          |15000 |3 april 2016    |Spelbudget skapat   |                                                                    |
-|ANV3|30 januari 2016|1 mån          |300   |28 februari 2016|Spelbudget skapat   |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
-|ANV4|10 mars 2016   |12 mån         |151   |10 mars 2017    |Spelbudget skapat   |Går bra att skapa budget med det ojämna beloppet                    |
-|ANV5|3 januari 2016 |1 mån          |16500 |                |Ej skapad spelbudget|För högt belopp                                                     |
-|ANV6|19 augusti 2016|1 mån          |90    |                |Ej skapad spelbudget|För lågt belopp                                                     |
-|ANV7|1 januari 2017 |6 mån          |10000 |1 juni 2017     |Spelbudget skapat   |                                                                    |
+|Create Gambling Budget                                                                                                         |
+|User|Date activated|Months|Amount|Period ends?|Result?    |Kommentar                                                           |
+|ANV1|2016-01-31    |1     |2000  |2016-02-29  |Created    |Skottår 2016. Observera datum avslutad låsningsperiod.              |
+|ANV2|2016-01-03    |3     |15000 |2016-04-03  |Created    |                                                                    |
+|ANV3|2016-01-30    |1     |300   |2016-02-28  |Created    |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
+|ANV4|2016-03-10    |12    |151   |2017-03-10  |Created    |Går bra att skapa budget med det ojämna beloppet                    |
+|ANV5|2016-01-03    |1     |16500 |            |Not created|För högt belopp                                                     |
+|ANV6|2016-08-19    |1     |90    |            |Not created|För lågt belopp                                                     |
+|ANV7|2017-01-01    |6     |10000 |2017-06-01  |Created    |                                                                    |
 
 |2.                                                                                                                                                                                      |
 |Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
