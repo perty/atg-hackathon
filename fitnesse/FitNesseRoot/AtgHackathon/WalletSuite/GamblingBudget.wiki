@@ -1,3 +1,6 @@
+---
+Test
+---
 Spelbudget och exempel
 
 Som en kund vill jag kunna sätta min spelbudget, dvs begränsa mitt spel under viss tidsperiod.
