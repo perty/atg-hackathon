@@ -10,7 +10,7 @@ Möjlig låsningsperiod för spelbudget: 1 - 12 månader. Hela månader.
 
 1. Som en kund vill jag aktivera spelbudget för att begränsa mitt spelande under viss period.                                                                                                      
 
-
+|Create Gambling Budget                                                                                                                                                                          |
 |Användare|Datum aktiverad spelbudget|Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall              |Kommentar                                                           |
 |ANV1     |31 januari 2016           |1 mån              |2000                 |29 februari 2016       |Spelbudget skapat   |Skottår 2016. Observera datum avslutad låsningsperiod.              |
 |ANV2     |3 januari 2016            |3 mån              |15000                |3 april 2016           |Spelbudget skapat                                                                        |
