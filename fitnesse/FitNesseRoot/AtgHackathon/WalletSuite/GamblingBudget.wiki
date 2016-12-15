@@ -22,15 +22,15 @@ Möjligt belopp spelbudget: 100-16000 kr!-
 
 2. Som en kund med aktiverad spelbudget vill jag kunna minska min spelbudget närsomhelst så att jag kan använda pengarna till annat.
 
-|Change Gambling Budget                                                                                                                                 |
-|User|Date activated|Months|Amount|Change Date|New Amount|Budget size?|Period ends?|Kommentar                                                           |
-|ANV1|2016-01-31    |1     |2000  |2016-02-14 |1000      |100         |2016-02-29  |Period end  unchanged.                                              |
-|ANV2|2016-01-03    |3     |15000 |2016-02-03 |15500     |15000       |            |Not allowed to raise budget.                                        |
-|ANV3|2016-01-30    |1     |300   |2016-02-28 |          |Created     |            |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
-|ANV4|2016-03-10    |12    |151   |2017-03-10 |          |Created     |            |Går bra att skapa budget med det ojämna beloppet                    |
-|ANV5|2016-01-03    |1     |16500 |           |          |Not created |            |För högt belopp                                                     |
-|ANV6|2016-08-19    |1     |90    |           |          |Not created |            |För lågt belopp                                                     |
-|ANV7|2017-01-01    |6     |10000 |2017-07-01 |          |Created     |            |                                                                    |
+|Change Gambling Budget                                                                                                                                    |
+|User|Date activated|Months|Amount|Change Date|New Amount|Budget Changed?|Period ends?|Kommentar                                                           |
+|ANV1|2016-01-31    |1     |2000  |2016-02-14 |500       |Changed        |2016-02-29  |Period end  unchanged.                                              |
+|ANV2|2016-01-03    |3     |15000 |2016-02-03 |15500     |Not Changed    |2016-04-03  |Not allowed to raise budget.                                        |
+|ANV3|2016-01-30    |1     |300   |2016-02-28 |          |Created        |            |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
+|ANV4|2016-03-10    |12    |151   |2017-03-10 |          |Created        |            |Går bra att skapa budget med det ojämna beloppet                    |
+|ANV5|2016-01-03    |1     |16500 |           |          |Not created    |            |För högt belopp                                                     |
+|ANV6|2016-08-19    |1     |90    |           |          |Not created    |            |För lågt belopp                                                     |
+|ANV7|2017-01-01    |6     |10000 |2017-07-01 |          |Created        |            |                                                                    |
 
 |2.                                                                                                                                                                                      |
 |Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
