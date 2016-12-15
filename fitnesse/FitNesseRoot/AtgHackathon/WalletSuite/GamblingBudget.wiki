@@ -13,12 +13,12 @@ Möjlig låsningsperiod för spelbudget: 1 - 12 månader. Hela månader.
 |Create Gambling Budget                                                                                                                                                                          |
 |Användare|Datum aktiverad spelbudget|Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall              |Kommentar                                                           |
 |ANV1     |31 januari 2016           |1 mån              |2000                 |29 februari 2016       |Spelbudget skapat   |Skottår 2016. Observera datum avslutad låsningsperiod.              |
-|ANV2     |3 januari 2016            |3 mån              |15000                |3 april 2016           |Spelbudget skapat                                                                        |
+|ANV2     |3 januari 2016            |3 mån              |15000                |3 april 2016           |Spelbudget skapat   |                                                                    |
 |ANV3     |30 januari 2016           |1 mån              |300                  |28 februari 2016       |Spelbudget skapat   |Fråga: Avslutad låsningsdatum, blir det näst sista dagen i februari?|
 |ANV4     |10 mars 2016              |12 mån             |151                  |10 mars 2017           |Spelbudget skapat   |Går bra att skapa budget med det ojämna beloppet                    |
 |ANV5     |3 januari 2016            |1 mån              |16500                |                       |Ej skapad spelbudget|För högt belopp                                                     |
 |ANV6     |19 augusti 2016           |1 mån              |90                   |                       |Ej skapad spelbudget|För lågt belopp                                                     |
-|ANV7     |1 januari 2017            |6 mån              |10000                |1 juni 2017            |Spelbudget skapat                                                                        |
+|ANV7     |1 januari 2017            |6 mån              |10000                |1 juni 2017            |Spelbudget skapat   |                                                                    |
 
 |2.                                                                                                                                                                                      |
 |Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
