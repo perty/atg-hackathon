@@ -28,19 +28,3 @@ Möjligt belopp spelbudget: 100-16000 kr!-
 |ANV2|2016-01-03    |3     |15000 |2016-02-03 |15500     |Not changed    |2016-04-03  |Not allowed to raise budget.   |
 |ANV3|2016-01-30    |1     |300   |2016-03-28 |12000     |Changed        |            |Rasie budget after period ends.|
 
-
-|2.                                                                                                                                                                                      |
-|Som en kund med aktiverad spelbudget (enligt ovan) vill jag kunna minska min spelbudget närsom helst.                                                                                   |
-|Ändringen ska slå igenom direkt.                                                                                                                                                        |
-|Användare|Datum ändrad spelbudget|Händelse         |Vald låsningsperiod|Avslutad låsningsperiod|Belopp spelbudget, kr|Utfall                 |Kommentar                                 |
-|ANV1     |14 februari 2016       |Minska spelbudget|N/A                |29 februari 2016       |1000                 |Spelbudgeten ändras    |Låsningsperiod oförändrad från föregående.|
-|ANV1     |16 februari 2016       |Minska spelbudget|N/A                |N/A                    |999                  |Spelbudgeten ändras ej.|Ej möjligt att minska med endast 1 kr     |
-|ANV4     |20 april 2016          |Minska spelbudget|N/A                |N/A                    |0                    |Ej ändrad spelbudget   |Ej möjligt att ange 0 kr.                 |
-
-|3.                                                                                                                                                                                         |
-|Som kund vill jag kunna vill jag kunna öka eller ta bort efter min spelbudget efter utgången låsningperiodperiod.                                                                          |
-|Användare|Datum ändrad spelbudget|Händelse          |Vald låsningsperiod|Belopp spelbudget, kr|Avslutad låsningsperiod|Utfall                   |Kommentar                                 |
-|ANV2     |20 januari 2016        |Höja spelbudget   |1 mån              |15500                |N/A                    |Spelbudgeten ändras ej.  |Låsningsperiod pågår.                     |
-|ANV2     |4 april 2016           |Höja spelbudget   |2 mån              |16000                |4 juni 2016            |Spelbudgeten ändras.     |Låsningsperiod avslutad. Ny låsningsperiod|
-|ANV2     |8/2/2016               |Ta bort spelbudget|N/A                |N/A                  |N/A                    |Spelbudgeten tas EJ bort.|Låsningsperiod pågår.                     |
-|ANV2     |10 september 2016      |Ta bort spelbudget|N/A                |N/A                  |N/A                    |Spelbudgeten tas bort    |Låsningsperiod avslutad.                  |
