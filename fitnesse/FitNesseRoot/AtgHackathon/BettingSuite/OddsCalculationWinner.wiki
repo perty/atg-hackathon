@@ -2,4 +2,16 @@
 Help: Specificaction of odds calculation when betting on the winner
 Test
 ---
-The odds for betting on the winner are based on the model of [[Parimutuel betting][https://en.wikipedia.org/wiki/Parimutuel_betting]].
+The odds for betting on the winner are based on the model of Parimutuel betting [[(Wikipedia)][https://en.wikipedia.org/wiki/Parimutuel_betting]].
+
+|Current Pool         |
+|Horse|Current betting|
+|1    |60             |
+|2    |140            |
+|3    |24             |
+|4    |110            |
+|5    |220            |
+|6    |94             |
+|7    |300            |
+|8    |80             |
+
