@@ -1,1 +1,5 @@
+---
+Help: Specificaction of odds calculation when betting on the winner
+Test
+---
 The odds for betting on the winner are based on the model of [[Parimutuel betting][https://en.wikipedia.org/wiki/Parimutuel_betting]].
