@@ -6,6 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class ChangeGamblingBudget {
 
     private Map<String, GamblingBudget> budgets = new HashMap<>();
@@ -14,9 +15,7 @@ public class ChangeGamblingBudget {
     private LocalDate changeDate;
 
     public void setUser(String user) {
-        if (budgets.get(user) == null) {
-            budgets.put(user, new GamblingBudget());
-        }
+        budgets.putIfAbsent(user, new GamblingBudget());
         budgets.get(user).setUser(user);
         currentUser = user;
     }
@@ -50,7 +49,7 @@ public class ChangeGamblingBudget {
         return budgets.get(currentUser).isChanged() ? "Changed" : "Not changed";
     }
 
-    public void setKommentar(String kommentar) {
+    public void setComment(String kommentar) {
 
     }
 }
