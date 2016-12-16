@@ -13,6 +13,6 @@ Also, you must issue the "docker login" command before you push.
 
 See: https://hub.docker.com
 
-Building the Docker images is done using Maven "sudo mvn package docker:build".
+Building the Docker images is done using Maven "mvn package docker:build".
 
 To read about using Docker with Spring Boot, see: https://spring.io/guides/gs/spring-boot-docker/
