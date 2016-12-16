@@ -1,3 +1,6 @@
+---
+Test
+---
 Change Gambling Budget
 
 |User|Date activated|Months|Amount|Change Date|New Amount|Budget Changed|Period ends|Comment                        |
