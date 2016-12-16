@@ -19,7 +19,7 @@ The odds for betting on the winner are based on the model of Parimutuel betting 
 |Odds calculation winner|
 |Horse      |Odds?      |
 |1          |14.69      |
-|2          |6.3        |
+|2          |6.30       |
 |3          |36.73      |
 |4          |8.01       |
 |5          |4.01       |
