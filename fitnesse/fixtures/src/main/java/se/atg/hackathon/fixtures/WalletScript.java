@@ -8,6 +8,7 @@ import java.util.Properties;
 import static java.lang.String.format;
 
 
+@SuppressWarnings("unused")
 public class WalletScript {
 
     private static String SERVICE_NAME = "Wallet";
