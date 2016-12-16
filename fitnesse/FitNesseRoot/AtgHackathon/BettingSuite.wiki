@@ -1,3 +1,6 @@
+---
+Help: Betting suite
+---
 !1 Betting suite
 Specifications related to betting.
 
