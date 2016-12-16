@@ -1,9 +1,10 @@
 ---
-Help: Roten till allt
+Help: ATG Hackathon starting point
 Suite
 ---
-!define TEST_SYSTEM {slim} 
+The root of all the specifications. 
+
+!define TEST_SYSTEM {slim}
 !path fixtures/target/classes
 !path fixtures/target/fixtures-jar-with-dependencies.jar
-
 !contents -R2 -g -p -f -h
