@@ -6,4 +6,4 @@ Vi testar att skapa en specifikation för en totalistor och implementera den i f
 Teknikval: 
 * FitNesse
 * Docker
-* Lagom
+* Spring Boot
