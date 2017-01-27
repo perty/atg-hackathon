@@ -49,7 +49,7 @@ public class ChangeGamblingBudget {
         return budgets.get(currentUser).isChanged() ? "Changed" : "Not changed";
     }
 
-    public void setComment(String kommentar) {
-
+    public void setComment(String comment) {
+        // Method is empty since it is only a comment.
     }
 }

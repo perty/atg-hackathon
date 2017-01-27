@@ -38,7 +38,7 @@ public class CreateGamblingBudget {
         return budgets.get(currentUser).isOk() ? "Created" : "Not created";
     }
 
-    public void setComment(String kommentar) {
-
+    public void setComment(String comment) {
+        // Method is empty since it is only a comment.
     }
 }

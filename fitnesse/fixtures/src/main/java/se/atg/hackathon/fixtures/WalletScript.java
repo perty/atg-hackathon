@@ -11,9 +11,9 @@ import static java.lang.String.format;
 @SuppressWarnings("unused")
 public class WalletScript {
 
-    private static String SERVICE_NAME = "Wallet";
-    private static final String HOST = "host";
-    private static final String PORT = "port";
+    private static final String SERVICE_NAME = "Wallet";
+    private static final String HOST_NAME_PROPERTY = "host";
+    private static final String PORT_PROPERTY = "port";
     private String hostName;
     private String port;
 
@@ -23,7 +23,7 @@ public class WalletScript {
 
     public boolean createWalletForOfAgeWithUserIs(String name, Integer age, String userName) {
         String path = format("http://%s:%s/createWallet?name=%s&age=%d&userName=%s", hostName, port, name, age, userName);
-        Wallet wallet = new RestCall<>(Wallet.class).get(path);
+        new RestCall<>(Wallet.class).get(path);
         return true;
     }
 
@@ -57,14 +57,14 @@ public class WalletScript {
     }
 
     private void setHostName(Properties properties) {
-        hostName = (String) properties.get(HOST);
+        hostName = (String) properties.get(HOST_NAME_PROPERTY);
         if (hostName == null) {
             throw new StopTestException("Wallet service has no host set up");
         }
     }
 
     private void setPort(Properties properties) {
-        port = (String) properties.get(PORT);
+        port = (String) properties.get(PORT_PROPERTY);
         if (port == null) {
             throw new StopTestException("Wallet service has no port set up");
         }

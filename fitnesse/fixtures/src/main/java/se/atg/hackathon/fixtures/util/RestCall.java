@@ -23,9 +23,9 @@ public class RestCall<T> {
         }
     }
 
-    public void post(String path) {
+    public String post(String path) {
         try {
-            String forObject = new RestTemplate().getForObject(path, String.class);
+            return new RestTemplate().getForObject(path, String.class);
         } catch (ResourceAccessException exception) {
             throw new StopTestException(exception.getMessage(), exception);
         }

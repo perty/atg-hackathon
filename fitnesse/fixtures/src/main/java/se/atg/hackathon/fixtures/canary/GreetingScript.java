@@ -12,8 +12,8 @@ import static java.lang.String.format;
 public class GreetingScript {
 
     private static final String BETTING_SERVICE_NAME = "Betting";
-    private static final String HOST = "host";
-    private static final String PORT = "port";
+    private static final String HOST_NAME_PROPERTY = "host";
+    private static final String PORT_PROPERTY = "port";
 
     private String greetingContent;
     private String hostName;
@@ -67,14 +67,14 @@ public class GreetingScript {
     }
 
     private void setHostName(Properties properties) {
-        hostName = (String) properties.get(HOST);
+        hostName = (String) properties.get(HOST_NAME_PROPERTY);
         if (hostName == null) {
             throw new StopTestException("Betting service has no host set up");
         }
     }
 
     private void setPort(Properties properties) {
-        port = (String) properties.get(PORT);
+        port = (String) properties.get(PORT_PROPERTY);
         if (port == null) {
             throw new StopTestException("Betting service has no port set up");
         }

@@ -4,17 +4,22 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
+@SuppressWarnings("WeakerAccess")
 public class GamblingBudget {
     private String user;
     private LocalDate dateActivated;
     private Integer months;
     private Integer amount;
-    private String periodEnds;
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private LocalDate changeDate;
 
     public void setUser(String user) {
         this.user = user;
+    }
+
+    public String getUser() {
+        return user;
     }
 
     public void setDateActivated(LocalDate dateActivated) {
@@ -40,10 +45,7 @@ public class GamblingBudget {
     }
 
     public boolean isOk() {
-        if (amount != null) {
-            return true;
-        }
-        return false;
+        return amount != null;
     }
 
     public void setNewAmount(LocalDate changeDate, Integer newAmount) {
@@ -64,4 +66,5 @@ public class GamblingBudget {
     private LocalDate getPeriodEndAsDate() {
         return dateActivated.plus(months, ChronoUnit.MONTHS);
     }
+
 }
